@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Components Practice</title>
+</head>
+
+<!-- icons links -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<!-- fonts links -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
+
+<!-- css links -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/style.css">
+
+
+<body>
+	<!-- header start -->
+	<header>
+		<div class="container-fluid">
+      <div class="col-12">
+			<!-- nav start -->
+			<nav class="navbar navbar-expand-lg nav_color">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+    	<img src="images/logo.png" alt="logo_image">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_sup" aria-controls="navbar_sup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse nav_bar" id="navbar_sup">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Team</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu
+          </a>
+          <ul class="dropdown-menu d_m">
+            <li><a class="dropdown-item" href="#">About</a></li>
+            <li><a class="dropdown-item" href="#">Pricing</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">FaQ</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">News</a>
+        </li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2 btn2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success btn1" type="submit"><i class="bi bi-search"></i></button>
+      </form>
+
+    </div>
+  </div>
+</nav>
+</div>
+		</div>
+	</header>
+	<!-- header end -->
+
+	<!-- slide start -->
+	<section class="banner">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					<!-- slide start -->
+					<div id="carousel_edit" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+						<!-- indecators -->
+  <div class="carousel-indicators c_indecators">
+    <button type="button" data-bs-target="#carousel_edit" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carousel_edit" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carousel_edit" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carousel_edit" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carousel_edit" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carousel_edit" data-bs-slide-to="5" aria-label="Slide 6"></button>
+  </div>
+
+  <!-- inner -->
+  <div class="carousel-inner">
+  	<!-- item -->
+
+    <div class="carousel-item active" data-bs-interval="1500">
+      <img src="images/b5.png" class="d-block w-100" alt="c_img">
+      <div class="carousel-caption">
+        <h5 class="slide_h1">First Slide</h5>
+        <p class="slide_p">Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Suscipit, perferendis.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="1500">
+      <img src="images/b6.png" class="d-block w-100" alt="c_img">
+      <div class="carousel-caption">
+        <h5 class="slide_h1">Second Slide</h5>
+        <p class="slide_p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, voluptatem.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="1500">
+      <img src="images/b7.png" class="d-block w-100" alt="c_img">
+      <div class="carousel-caption">
+        <h5 class="slide_h1">Third Slide</h5>
+        <p class="slide_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, quibusdam.</p>
+      </div>
+    </div>
+
+     <div class="carousel-item" data-bs-interval="1500">
+      <img src="images/b8.png" class="d-block w-100" alt="c_img">
+      <div class="carousel-caption">
+        <h5 class="slide_h1">Fourth Slide</h5>
+        <p class="slide_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, quibusdam.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="1500">
+      <img src="images/b10.png" class="d-block w-100" alt="c_img">
+      <div class="carousel-caption">
+        <h5 class="slide_h1">Fifth Slide</h5>
+        <p class="slide_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, quibusdam.</p>
+      </div>
+    </div>
+
+      <div class="carousel-item" data-bs-interval="1500">
+      <img src="images/b9.png" class="d-block w-100" alt="c_img">
+      <div class="carousel-caption">
+        <h5 class="slide_h1">Sixth Slide</h5>
+        <p class="slide_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, quibusdam.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- carousel btn -->
+  <button class="carousel-control-prev c_prev" type="button" data-bs-target="#carousel_edit" data-bs-slide="prev">
+    <span class="pre_i" aria-hidden="true"><i class="bi bi-box-arrow-in-left"></i></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+
+  <button class="carousel-control-next c_next" type="button" data-bs-target="#carousel_edit" data-bs-slide="next">
+    <span class="next_i" aria-hidden="true"><i class="bi bi-box-arrow-in-right"></i></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
+</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- slide end -->
+
+  <!-- according start -->
+
+    <section class="according_prac">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="accordion" id="accord_1">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c_one" aria-expanded="true" aria-controls="c_one">
+                        Is there any live support in "SHIKBE SOBAI"?
+                        </button>
+                    </h2>
+                    <div id="c_one" class="accordion-collapse collapse show" data-bs-parent="#accord_1">
+                      <div class="accordion-body">
+                        <p class="p_accord" mb-0>Yes! You will get lifetime Live Support from SHIKBE SOBAI.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_two" aria-expanded="false" aria-controls="c_two">
+                        HOW ABOUT MENTORS ARE?
+                      </button>
+                    </h2>
+                    <div id="c_two" class="accordion-collapse collapse" data-bs-parent="#accord_1">
+                      <div class="accordion-body">
+                        <p class="p_accord" mb-0>Mentors are always ready to support, advise and guide you. They typically take the time to get to know you and the challenges you're facing and then use their understanding and personal experience to help you improve.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_three" aria-expanded="false" aria-controls="c_three">
+                        how about offline classes?
+                      </button>
+                    </h2>
+                    <div id="c_three" class="accordion-collapse collapse" data-bs-parent="#accord_1">
+                      <div class="accordion-body">
+                        <p class="p_accord" mb-0>Offline classes refer to traditional, in-person classroom learning where students attend lectures and interact with teachers and peers physically, offering benefits like direct interaction, a structured environment, immediate feedback, hands-on learning opportunities, and a stronger sense of community compared to online classes</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+          </div>
+
+
+          <div class="col-md-6">
+
+            <div class="accordion" id="accor_ex">
+
+  <div class="accordion-item">
+
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c_1" aria-expanded="true" aria-controls="c_1">
+        Question 1 Lorem ipsum dolor sit?
+      </button>
+    </h2>
+    <div id="c_1" class="accordion-collapse collapse show" data-bs-parent="#accor_ex">
+      <div class="accordion-body">
+        <p class="p_accord" mb-0>Lorem ipsum dolor sit amet consectetur, adipisicing.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_2" aria-expanded="false" aria-controls="c_2">
+        Question 2 Lorem ipsum dolor sit?
+      </button>
+    </h2>
+    <div id="c_2" class="accordion-collapse collapse" data-bs-parent="#accor_ex">
+      <div class="accordion-body">
+        <p class="p_accord" mb-0>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa dolorum voluptatum, quaerat cumque. Necessitatibus praesentium quae, eligendi officia reiciendis assumenda, nulla quisquam odio? Quibusdam praesentium, eligendi temporibus, corporis suscipit minima, alias ut voluptate dolores cupiditate esse illo pariatur sint.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_3" aria-expanded="false" aria-controls="c_3">
+        Question 3 Lorem ipsum dolor sit?
+      </button>
+    </h2>
+    <div id="c_3" class="accordion-collapse collapse" data-bs-parent="#accor_ex">
+      <div class="accordion-body">
+        <p class="p_accord" mb-0>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius voluptate, animi saepe similique iste, voluptas! Illo iusto, delectus nemo consectetur hic et nisi ea maxime porro sint eligendi ducimus reiciendis blanditiis accusantium asperiores fugiat possimus dolore, odit labore vero doloremque.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- according end -->
+
+
+  <!-- tooltip start -->
+
+  <section class="tooltip_practice">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="tool_h">
+            <h1>ToolTips Practice</h1>
+          </div>
+          </div>
+
+          <div class="col-md-6">
+          <div class="tool_d">
+
+            <button type="button" class="btnx" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">Tooltip on top
+            </button>
+
+            <button type="button" class="btnx" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">Tooltip on bottom
+            </button>
+
+            <button type="button" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on Left">Tooltip on Left
+            </button>
+            </div>
+        </div>
+
+          <div class="col-md-6">
+          <div class="tool_d">
+
+            <button type="button" class="btn_l" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="This is Android Logo"><i class="bi bi-android2"></i>
+            </button>
+
+            <button type="button" class="btn_m" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="This messege for you"><i class="bi bi-chat-dots-fill"></i>
+            </button>
+
+            <button type="button" class="btn_b" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="This is Alphabet Symbol"><i class="bi bi-alphabet-uppercase"></i>
+            </button>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- tooltip end -->
+
+  <!-- modal start -->
+   <section class="modal_prac">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <!-- Button trigger modal -->
+                <button type="button" class="btn_modal" data-bs-toggle="modal" data-bs-target="#ex_modals">
+                  Practice Modal
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="ex_modals" tabindex="-1" aria-labelledby="ex_modalsLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="ex_modalsLabel">This IS Practice Modal Title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+
+                      <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit blanditiis veniam aperiam delectus expedita labore, voluptate at eveniet minus? Perferendis ipsa sapiente nam, soluta cupiditate recusandae dolores tenetur excepturi similique nihil consequatur dolor quasi ut repellat odio rem in esse quaerat laudantium voluptates. Itaque non, veritatis temporibus magnam ipsam fugit totam excepturi animi cum fugiat cumque ipsum, quidem eaque tenetur amet neque corporis nemo quas est nihil? Maxime molestias, incidunt alias quaerat laudantium in quibusdam sit, error officia, debitis et accusantium odit! Quasi a, maxime iusto quisquam impedit vitae sequi quod perferendis sit, placeat, debitis. Voluptates adipisci quasi, saepe. Accusantium.</p>
+                      </div>
+
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- modal end -->
+
+
+
+	<!-- script links -->
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

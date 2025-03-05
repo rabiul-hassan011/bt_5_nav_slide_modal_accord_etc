@@ -1,0 +1,69 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+.slide_h1{
+	font-size: 10px !important;
+}
+.slide_p{
+    font-size: 10px !important;
+}
+.pre_i i, .next_i i{
+	color: #fff200 !important;
+	font-size: 16px !important;
+}
+.c_indecators {
+    bottom: 0 !important;
+    left: -85% !important;
+}
+.c_indecators button {
+	display: none;
+}
+
+.accordion-item{
+	margin: 20px 0;
+ }
+
+ .accordion-button, .p_accord{
+	font-size: 10px !important;
+}
+}
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.c_indecators {
+    bottom: 7% !important;
+}
+
+.accordion-item{
+	margin: 20px 0;
+ }
+
+ .accordion-button, .p_accord{
+	font-size: 16px !important;
+}
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.c_indecators {
+    bottom: 7% !important;
+}
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.c_indecators {
+    bottom: 25% !important;
+}
+ }
+
+ /*Extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+ }
+
+/*Extra Extra large (XXL) devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) { 
+
+ }
